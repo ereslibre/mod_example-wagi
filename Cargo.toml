@@ -1,0 +1,11 @@
+[package]
+
+name = "mod_example"
+version = "0.0.2"
+
+[lib]
+name = "mod_example"
+crate-type = ["dylib"]
+
+[dependencies]
+apache-rs = { git = "https://github.com/studersi/apache-rs" }
