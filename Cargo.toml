@@ -8,4 +8,5 @@ name = "mod_example"
 crate-type = ["dylib"]
 
 [dependencies]
+wagi = { git = "https://github.com/deislabs/wagi" }
 apache-rs = { git = "https://github.com/studersi/apache-rs" }
